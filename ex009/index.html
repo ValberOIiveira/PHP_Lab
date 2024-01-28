@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio de Números</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Sorteie um número entre</h1>
+    
+    <form action="func.php" method="get">
+        <input type="number" id="minimo" name="minimo" placeholder="min" required>
+        e
+        <input type="number" id="maximo" name="maximo" placeholder="max" required>
+        <button type="submit">Sortear</button>
+    </form>
+
+    <p id="resultado"></p>
+</body>
+</html>

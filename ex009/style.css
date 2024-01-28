@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+form {
+    width: 300px; /* Ajuste o tamanho conforme necessário */
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Alterado para coluna para melhorar o layout */
+    align-items: center;
+}
+
+h1, input, button {
+    margin-bottom: 10px; /* Adicione espaçamento abaixo de cada elemento */
+    white-space: nowrap;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: calc(100% - 16px); /* Ajuste para considerar o padding na largura total */
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%; /* Faz o botão ocupar a largura total do formulário */
+}
